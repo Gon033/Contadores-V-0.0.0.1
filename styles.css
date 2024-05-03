@@ -94,7 +94,8 @@ body {
 
 .btn-info {
     display: inline-block;
-    padding: 12px 45px;
+    padding: 20px 45px;
+    margin-top: 30px;
     border: 1px solid #fffdfc;
     color: #fffdfc;
     font-size: 16px;
