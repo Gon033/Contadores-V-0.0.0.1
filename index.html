@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet" type="text/css">
+    <script src="script.js"></script>
     <title>GonzalezTrejo</title>
 </head>
 
@@ -12,7 +13,7 @@
 
 <body>
 
-    <script src="script.js"></script>
+    
 
     <header class="header">
 
@@ -48,7 +49,7 @@
                     veritatis labore aut. Voluptatibus!
                 </p>
 
-                <a href="#" class="btn-info">Informacion</a>
+                <a href="#" class="btn-info" onclick="infoFunction()">Informacion</a>
 
             </div>
 
@@ -258,9 +259,9 @@
         <h2>Contactanos</h2>
 
         <form>
-            <input class="field" type="text" placeholder="Nombre">
-            <input class="field" type="email" placeholder="Email">
-            <input class="btn-submmit" type="submit" value="Enviar">
+            <input id="name" class="field" type="text" placeholder="Nombre">
+            <input id="email" class="field" type="email" placeholder="Email">
+            <input onclick="contactFunction()" class="btn-submmit" type="submit" value="Enviar">
         </form>
 
         <div class="footer-txt">
