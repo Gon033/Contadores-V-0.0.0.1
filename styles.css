@@ -61,6 +61,11 @@ body {
     font-weight: 600;
 }
 
+.menu .navbar ul li a:hover{
+    color: #1b293a;
+    background-color:#fffdfc 
+}
+
 #menu {
     display: none;
 }
