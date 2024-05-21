@@ -17,7 +17,7 @@ function contactFunction() {
         alert(nametxt.value + ' su correo: ' + emailtxt.value + ' fueron enviado exitosamente!')
     }
     else {
-        alert('FAvor de llenar los datos de contacto')
+        alert('Favor de llenar los datos de contacto')
     }
 }
 
